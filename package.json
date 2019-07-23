@@ -1,0 +1,16 @@
+{
+  "name": "card-redactor",
+  "version": "1.0.0",
+  "description": "Replace matched instances of card numbers with all zeros",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -pe \"require('.').main()\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anish Khale",
+  "license": "ISC",
+  "dependencies": {
+    "card-validator": "^6.2.0",
+    "dotenv": "^8.0.0"
+  }
+}
